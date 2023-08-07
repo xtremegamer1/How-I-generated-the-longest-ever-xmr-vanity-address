@@ -91,6 +91,7 @@ Therefore c = (1-1/n) ^ an
 for large n we can approximate with lim n->inf (1-1/n)^an = e^-a
 for c = 0.5 (average case) e^-a = 0.5 therefore a = ln(2)
 recall m = a * n therefore m = ln(2) * n
+n = 58 ^ 14 (chance of finding at a specific position) / 80 (number of possible positions per address)
 ln(2) * 58 ^ 14 / 80 = 4.22 * 10 ^ 22
 4.22 * 10 ^ 22 attempts / 10^9 attempts per sec = 4.22 * 10^13 secs
 4.22 * 10^13 secs / 31536000 secs/year = 1,339,432 years
