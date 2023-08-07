@@ -80,6 +80,7 @@ And you're done! 14- and even 16- digit vanity strings are definitely feasible n
 
 47Uo6EFMW5FBEosp951V9SdiiyZLkATdafCu2of**xtremegamer1**wYkchuK1R6sW4mp6bTFQANzf2gbtidM4yoCD6EoJXphP - 11 characters, this one only took 6 minutes to generate
 465sL8j2WqWZu7i7B7t9iKYyMbUpAvi9tgNPMDj**MommyMi1kers**96hEYQTimtvNa56cN7tjVqDxUKXMQDbzikXcJ199V8cu - 12 characters, this one took over 6 hours
+4AbLLLZvjdA3cXr8Xs2LevhActZt3TLGhjiVga**99999999999999**fvdWrvvfpRHSS78hRznFjpb64BKnn12H5bQFAsifLdj - 14 character vanity address, took under an hour but got extremely lucky
 
 Assuming a speed of 1 billion checked addresses per second (close to 20 times what I got), and 50 possible positions for this text, finding a specific 12-digit string would take an average of 637 years to find without using my method. Here is how I figured that:
 
