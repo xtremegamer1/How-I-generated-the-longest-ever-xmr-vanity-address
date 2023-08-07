@@ -76,10 +76,10 @@ $ ./monero-wallet-cli --generate-from-keys your-new-wallet-name-here
 
 ```
 
-And you're done! 14- and even 16- digit vanity strings are definitely feasible now with enough computation time, albiet not at the start of the wallet address. Using this method I generated 2 12-character vanity addresses:
+And you're done! 14- and even 16- digit vanity strings are definitely feasible now with enough computation time, albiet not at the start of the wallet address. Using this method I generated an 11-character and a 12-character vanity address:
 
-47Uo6EFMW5FBEosp951V9SdiiyZLkATdafCu2of**xtremegamer1**wYkchuK1R6sW4mp6bTFQANzf2gbtidM4yoCD6EoJXphP - this one only took 6 minutes to generate
-465sL8j2WqWZu7i7B7t9iKYyMbUpAvi9tgNPMDj**MommyMi1kers**96hEYQTimtvNa56cN7tjVqDxUKXMQDbzikXcJ199V8cu - this one took over 6 hours, idk I may have messed something up
+47Uo6EFMW5FBEosp951V9SdiiyZLkATdafCu2of**xtremegamer1**wYkchuK1R6sW4mp6bTFQANzf2gbtidM4yoCD6EoJXphP - 11 characters, this one only took 6 minutes to generate
+465sL8j2WqWZu7i7B7t9iKYyMbUpAvi9tgNPMDj**MommyMi1kers**96hEYQTimtvNa56cN7tjVqDxUKXMQDbzikXcJ199V8cu - 12 characters, this one took over 6 hours
 
 Assuming a speed of 1 billion checked addresses per second (close to 20 times what I got), and 50 possible positions for this text, finding a specific 12-digit string would take an average of 637 years to find without using my method. Here is how I figured that:
 
