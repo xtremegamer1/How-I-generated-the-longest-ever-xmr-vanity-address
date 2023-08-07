@@ -83,7 +83,8 @@ And you're done! 14- and even 16- digit vanity strings are definitely feasable n
 
 Assuming a speed of 1 billion checked addresses per second (close to 20 times what I got), and 50 possible positions for this text, finding a specific 12-digit string would take an average of 637 years to find without using my method. Here is how I figured that:
 
-Change of finding something with a 1/n after m attempts (c) = (1-1/n) ^ m
+```
+Change of finding something with a 1/n chance after m attempts (c) = (1-1/n) ^ m
 Let m := a * n
 Therefore c = (1-1/n) ^ an
 for large n we can approximate with lim n->inf (1-1/n)^an = e^-a
@@ -92,6 +93,7 @@ recall m = a * n therefore m = ln(2) * n
 ln(2) * 58 ^ 12 / 50 = 2.01 * 10 ^ 19
 2.01 * 10 ^ 19 attempts / 10^9 attempts per sec = 2.01 * 10^10 secs
 2.01 * 10^10 secs / 31536000 secs/year = 637 years
+```
 
 
 Keep in mind that using this method will create a non-deterministic wallet, meaning that the view key cannot be derived from the spend key. This means you won't be able to generate a seed phrase for it using ordinary wallet software, and if you are intent on using seedphrases you will have to generate them manually using the seed phrase libraries and you will need 2, one for your private spend and one for your private view key.
