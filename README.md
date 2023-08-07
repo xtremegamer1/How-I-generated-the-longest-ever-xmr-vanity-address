@@ -99,3 +99,5 @@ ln(2) * 58 ^ 12 / 50 = 2.01 * 10 ^ 19
 Keep in mind that using this method will create a non-deterministic wallet, meaning that the view key cannot be derived from the spend key. This means you won't be able to generate a seed phrase for it using ordinary wallet software, and if you are intent on using seedphrases you will have to generate them manually using the seed phrase libraries and you will need 2, one for your private spend and one for your private view key.
 
 Finally, enjoy these long vanity addresses while you can, because Jamtis, a proposed change to Monero that is a part of the Seraphis proposal that will likely be added in the future, will replace these nice addresses with even longer and uglier base32 ones. This method will likely still be possible after the change but there will be fewer characters to work with and all previously generated addresses will no longer work.
+
+If you have any questions or comments feel free to raise an issue about it.
